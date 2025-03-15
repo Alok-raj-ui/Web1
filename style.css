@@ -1,0 +1,231 @@
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+.nav{
+  width: 100%;
+  height:60px;
+  /*border:2px solid black;*/
+  box-shadow: 1px 1px 1px 1px darkgrey;
+  display: flex;
+}
+
+.img1{
+  height: 60px;
+  width: 60px;
+}
+
+.log{
+  width: 100%;
+  display: flex;
+  justify-content:right;
+  align-items: center;
+  
+}
+
+#btn1{
+  margin: 10px;
+  padding: 10px;
+  background-color: royalblue;
+  border: 0.1px solid transparent;
+  border-radius: 5px;
+  color: white;
+}
+
+.lobby{
+  display:flex;
+  flex-direction: column;
+ /* justify-content: center;
+  align-items: center;*/
+  width: 100%;
+  height: 650px;
+ /* border: 2px solid red;*/
+}
+
+.ulobby{
+  width: 100%;
+  height: 300px;
+/*  border: 2px solid black */
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+
+.simg{
+  /*border: 2px solid red;*/
+  width: 100%;
+  height:100%;
+  display:flex;
+  justify-content: center;
+}
+
+#blue{
+  color: blue;
+}
+
+.qut1{
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: top;
+  font-family: "Spicy Rice", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #fff;
+}
+
+#backco{
+  position: absolute;
+  transform: rotate(90deg);
+  width: 100px;
+  height: 400px;
+  z-index: -1;
+  margin-top:-200px;
+}
+
+#compid{
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 30px;
+  border-bottom: 2px solid skyblue;
+}
+
+#ybcb{
+  position:absolute ;
+  z-index: -1;
+  top: 100%;
+  opacity: 10%;
+}
+
+.card1 , .card2 , .card3{
+  width:300px;
+  height:  200px;
+  border: 0.0001px solid transparent;
+  margin-top: 50px;
+  background-color: white;
+  box-shadow: 1.5px 1.5px 0.5px 1px darkgray;
+  border-radius: 2.5px;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+} 
+
+.company{
+  width: 100%;
+  height: 900px;
+/*  border:2px solid red;*/
+  overflow: hidden;
+}
+
+.alli{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#adi ,#idk ,#nick{
+  width: 200px;
+}
+
+#nike{
+  width: 300px;
+}
+
+.typesec{
+  margin-top: 40px;
+  width: 100%;
+  height: 200px;
+ /* border: 2px solid red;*/
+}
+#h21{
+  width: 100%;
+  text-align: center;
+}
+
+
+#set1{
+  width: 100%;
+  height: 30px;
+/*  border: 2px solid red;*/
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style: none;
+  justify-content: space-around;
+  font-weight:bold;
+  color: skyblue;
+  margin-top: 30px;
+}
+
+.ss{
+  border: 2px solid lightblue;
+  padding: 4px;
+  border-radius: 5px;
+}
+.ss:hover{
+  background-color:skyblue;
+  color: white;
+}
+
+.spbtn{
+  width: 100%;
+  height: 200px;
+/*  border:2px solid red;*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction:column;
+  
+}
+.sp2{
+  margin: 10px;
+  width: 80%;
+  height: 50px;
+  font-size: 29px;
+  border: 2px solid skyblue;
+  border-radius: 3px;
+  background-color: white;
+  color: skyblue;
+}
+.po{
+  border-color: lightcoral;
+  color: lightcoral;
+}
+.sho{
+  background-color:skyblue;
+  color: white;
+}
+
+.contact{
+  width: 100%;
+  height: 200px;
+  margin: 10px;
+  /*border: 2px solid red;*/
+}
+
+#par{
+  margin: 15px;
+}
+
+
+.fotter{
+  width: 100%;
+  height: 200px;
+  background-color: dodgerblue;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+#last{
+  margin-top: 10px;
+  
+}
